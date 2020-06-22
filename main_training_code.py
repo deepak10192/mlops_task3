@@ -96,7 +96,6 @@ print('Test accuracy:', scores[1])
 
 new = scores[1]
 new = 100*new
-new = str(new)
 file= open('accuracy.txt','w+')
 file.write(str(new))
 file.close()
